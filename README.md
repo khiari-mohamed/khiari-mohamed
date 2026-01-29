@@ -3,6 +3,7 @@
 **Directeur Technique & Full Stack Software Engineer | AI & GIS | React • Node • React Native • DevOps • AWS • MongoDB**
 
 I’m a **Directeur Technique (CTO) and Full Stack Software Engineer** with hands-on experience building scalable **web and mobile applications**, **AI-powered systems (RAGs & ML models)**, and managing **cloud infrastructure and server security**. I enjoy solving complex problems at the intersection of **software engineering, artificial intelligence, and geospatial systems**.
+Beyond engineering, I’m deeply fascinated by complex systems — from quantum physics and hard theoretical problems to cosmology and the big questions about existence. I’m driven by curiosity and enjoy tackling problems that don’t have obvious answers.
 
 Check out my portfolio: [![Portfolio](https://img.shields.io/badge/Portfolio-View-blue?style=for-the-badge)](https://portfolio-v1-rho-livid.vercel.app/)
 
