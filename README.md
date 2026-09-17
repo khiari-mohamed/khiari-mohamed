@@ -86,13 +86,7 @@ Multiple production React / React Native applications with authenticated APIs, c
 
 </div>
 
-<!--
-SNAKE ANIMATION — animates your contribution graph.
-Requires the GitHub Action in .github/workflows/snake.yml (included alongside this file).
-Once the action has run once, uncomment the line below.
-
-<img src="https://raw.githubusercontent.com/khiari-mohamed/khiari-mohamed/output/github-contribution-grid-snake.svg" alt="Snake animation" />
--->
+<img src="https://raw.githubusercontent.com/khiari-mohamed/khiari-mohamed/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%"/>
 
 ---
 
