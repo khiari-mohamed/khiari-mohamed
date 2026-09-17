@@ -81,8 +81,8 @@ Multiple production React / React Native applications with authenticated APIs, c
 
 <div align="center">
 
-![Mohamed's GitHub stats](https://github-readme-stats.vercel.app/api?username=khiari-mohamed&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khiari-mohamed&layout=compact&theme=tokyonight&hide_border=true)
+![Mohamed's GitHub stats](https://github-readme-stats.vercel.app/api?username=khiari-mohamed&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khiari-mohamed&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400)
 
 </div>
 
