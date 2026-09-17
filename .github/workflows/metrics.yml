@@ -1,0 +1,58 @@
+name: Metrics
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 0 * * *"   # regenerates once a day
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: khiari-mohamed
+          template: classic
+          config_timezone: Africa/Tunis
+
+          # Base sections (profile summary, activity feed, repos overview)
+          base: header, activity, community, repositories, metadata
+
+          # Most-used languages, as a bar chart
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_limit: 8
+
+          # Isometric commit calendar — the "map"-looking grid
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Coding habits — commit times/days, as charts
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+
+          # Lines of code added/removed, as a chart
+          plugin_lines: yes
+
+          # Recently starred repos, as a chart
+          plugin_stargazers: yes
+
+          # Follow-up on your issues/PRs, as a chart
+          plugin_followup: yes
+
+          # Notable contributions to other repos
+          plugin_notable: yes
+
+          # Skill/tech icon row (topics you work with)
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 12
+
+          # Achievement badges (the round rank icons)
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
